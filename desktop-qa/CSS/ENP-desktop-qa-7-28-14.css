@@ -1,6 +1,5 @@
 #GlobalCSS {
     [GlobalCSS];
-#TEST
 }
 @font-face {
     font-family:"chunckfive";
@@ -99,6 +98,9 @@ form#update-pick-up-time-form-internals-order-status .update-btn.update-btn-off 
 }
 .ui-res-edit-account-input-table[name=addressDescription], .ui-res-edit-account-input-table[for=addressDescription], .billing-address-addressDescription-container {
     display:none;
+}
+.billing-address-addressType-container, .billing-address-addressType-input-container, .billing-address-addressType-label-container {
+    display:none !important;
 }
 .validate-basket-error .pre-order-information-message {
     background-color:rgba(0, 0, 0, 0);
