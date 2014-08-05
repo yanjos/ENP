@@ -10,6 +10,21 @@
     font-weight:normal;
     src:url("//images.testwebhotel.microsdc.us/enp.mobile/font/coffeeservice-webfont.eot#iefix") format("embedded-opentype"), url("//images.testwebhotel.microsdc.us/enp.mobile/font/coffeeservice-webfont.woff") format("woff"), url("//images.testwebhotel.microsdc.us/enp.mobile/font/coffeeservice-webfont.ttf") format("truetype"), url("//images.testwebhotel.microsdc.us/enp.mobile/font/coffeeservice-webfont.svg") format("svg");
 }
+@media only screen and (max-width: 480px) {
+	@font-face {
+		font-family:"coffeeservice";
+		src: url("//images.testwebhotel.microsdc.us/enp.mobile/font/coffeeservice-webfont.svg") format("svg");
+		font-style:normal;
+		font-weight:normal;
+	}
+	@font-face {
+		font-family:"chunkfive";
+		src:url("//images.testwebhotel.microsdc.us/enp.mobile/font/chunkfive-webfont.svg") format("svg");
+			font-style:normal;
+		font-weight:normal;
+	}
+}
+
 .comingsoon-b {
     text-align:center;
 }
