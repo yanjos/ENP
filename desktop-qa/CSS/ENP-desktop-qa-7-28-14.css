@@ -63,6 +63,7 @@ input:focus, select:focus {
 .ui-res-remove-favourite-order-confirmation-message {
     margin:10px;
     font-size:14px;
+    font-family:Helvetica, sans-serif;
 }
 .ui-res-remove-favourite-order-confirmation-body {
     text-align:center;
@@ -100,7 +101,7 @@ form#update-pick-up-time-form-internals-order-status .update-btn.update-btn-off 
     display:none;
 }
 .billing-address-addressType-container, .billing-address-addressType-input-container, .billing-address-addressType-label-container {
-    display:none !important;
+    display:none!important;
 }
 .validate-basket-error .pre-order-information-message {
     background-color:rgba(0, 0, 0, 0);
