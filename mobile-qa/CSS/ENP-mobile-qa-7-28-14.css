@@ -24,6 +24,36 @@
         font-weight:normal;
     }
 }
+.enp-popup-modals {
+    left:8px;
+    margin:0 auto;
+    position:absolute;
+    top:66px;
+    width:95%;
+    z-index:900;
+}
+.enp-popup-modals .ui-res-out-of-range-confirmation-dialog, .enp-popup-modals .ui-res-update-to-zero-confirmation-dialog {
+    display:none!important;
+}
+.enp-popup-modals .ui-dialog {
+    background:#fff2cc!important;
+    border-radius:10px;
+    box-shadow:1px 2px 5px 2px rgba(0, 0, 0, 0.7);
+    padding:7px;
+}
+.enp-popup-modals .ui-dialog-content {
+    padding:0!important;
+}
+.enp-popup-modals-overlay {
+    display:none;
+    background:rgba(0, 0, 0, .75);
+    height:100%;
+    left:0;
+    position:absolute;
+    top:0;
+    width:100%;
+    z-index:100;
+}
 .comingsoon-b {
     text-align:center;
 }
@@ -184,9 +214,6 @@ body {
 }
 .title-value-title:after {
     content:" ";
-}
-.review-and-checkout .ui-dialog {
-    background:transparent!important;
 }
 .addTopSpace {
     top:214px!important;
@@ -811,7 +838,7 @@ h2.cart-summary-title {
     height:40px;
     position:relative;
     width:16px;
-    z-index:1000;
+    z-index:100;
 }
 .edit-billing-address .content-title h1, .review-and-checkout .content-title h1 {
     font-size:30px;
