@@ -13,6 +13,48 @@
     font-weight:normal;
     src:url("//images.testwebhotel.microsdc.us/eatnparkv7/font/coffeeservice-webfont.woff") format("woff");
 }
+.ui-res-group-order-my-invitee-group-list-table-container {
+    background-color:#f9eedc!important;
+}
+.ui-res-group-order-group-members-container {
+    margin-bottom:0!important;
+}
+input.ui-res-group-order-group-name-input {
+    margin-top:-4px;
+}
+.review-mode .ui-res-group-order-group-name-label-container.label-container {
+    width:auto!important;
+}
+.create-group-order-page-b .headerdot {
+    width:56%;
+    position:relative;
+    top:-3px;
+    left:-11px;
+}
+.my-group-orders-page-b .headerdot {
+    width:52%;
+    position:relative;
+    top:-3px;
+    left:-7px;
+}
+.create-or-update-invitee-group-page-b .headerdot {
+    width:43%;
+    position:relative;
+    top:-3px;
+    left:-4px;
+}
+.my-invitee-groups-page-b .headerdot {
+    width:34%;
+    position:relative;
+    top:-3px;
+    left:-7px;
+}
+.manage-invitee-groups-info-text {
+    padding:0 0 5px 10px;
+}
+.group-order .Sub-wrap {
+    width:100%!important;
+}
 .custom-group-order-btn {
     float:right;
     padding-right:10px;
@@ -711,7 +753,7 @@ a#change-location-link-ordering-from-page {
 label[for=addressDescription] {
     display:none;
 }
-.my-group-orders, .create-new-order {
+.my-group-orders, .create-new-order, .my-invitee-groups {
     font-weight:bold;
 }
 .ui-res-group-order-group-members-label-separator, .ui-res-group-order-my-group-orders-list-header-separator {
@@ -1005,14 +1047,14 @@ div.ui-res-my-account-view-btn-container {
     width:75%!important;
     padding:0 15px 25px 10px;
 }
-.nav-create-group-order a, .nav-my-group-orders a {
+.nav-create-group-order a, .nav-my-group-orders a, .nav-my-invitee-groups a {
     color:#fff!important;
     font-weight:bold;
 }
 .ui-res-group-order-nav-container .back-to-menu>a {
     color:#fff!important;
 }
-.nav-my-group-orders .my-group-orders>a, .nav-create-group-order .create-new-order>a {
+.nav-my-group-orders .my-group-orders>a, .nav-create-group-order .create-new-order>a, .nav-my-invitee-groups .my-invitee-groups>a {
     color:#000!important;
 }
 .ui-widget-content {
@@ -1089,7 +1131,7 @@ div.ui-res-my-account-view-btn-container {
 .create-new-group-order-btn {
     padding:7px 13px!important;
 }
-.button-1, input.button-1, button.button-1, button.remove-applied-vouchers {
+.button-1, input.button-1, button.button-1, button.remove-applied-vouchers, .start-group-order-link-container {
     background-color:rgba(0, 0, 0, 0);
     background-image:url("//images.testwebhotel.microsdc.us/eatnparkv7/get/w/122/h/33/button-red-bg.image?notfound=notavailable");
     background-size:125% 125%;
@@ -1541,11 +1583,11 @@ div.border-1px {
 .ui-res-header-account-and-cart-navigation-container-parent {
     background-color:transparent!important;
 }
-.home-page-a, .edit-account-page-a, .my-account-page-a, .privacy-policy-page-a, .terms-and-conditions-page-a, .create-account-page-a, .order-summary-page-a, .contact-us-page-a, .login-page-a, .step-by-step-customization-page-a, .order-date-time-page-a, .order-confirmation-page-a, .review-and-checkout-page-a, .catering-page-a, .checkout-page-a, .location-details-page-a, .menu-page-a, .search-locations-results-page-a, .search-locations-criteria-and-result-page-a, .about-us-a, .edit-billing-address-page-a, .my-past-orders-page-a, .my-favorite-orders-page-a, .create-group-order-page-a, .my-group-orders-page-a, .review-group-order-page-a, .forgot-password-page-a, .reset-password-page-a, .group-order-invitation-sent-page-a, .review-open-group-order-page-a, .review-cancelled-group-order-page-a, .review-closed-group-order-page-a, .order-confirmation-page-a {
+.home-page-a, .edit-account-page-a, .my-account-page-a, .privacy-policy-page-a, .terms-and-conditions-page-a, .create-account-page-a, .order-summary-page-a, .contact-us-page-a, .login-page-a, .step-by-step-customization-page-a, .order-date-time-page-a, .order-confirmation-page-a, .review-and-checkout-page-a, .catering-page-a, .checkout-page-a, .location-details-page-a, .menu-page-a, .search-locations-results-page-a, .search-locations-criteria-and-result-page-a, .about-us-a, .edit-billing-address-page-a, .my-past-orders-page-a, .my-favorite-orders-page-a, .create-group-order-page-a, .my-group-orders-page-a, .review-group-order-page-a, .forgot-password-page-a, .reset-password-page-a, .group-order-invitation-sent-page-a, .review-open-group-order-page-a, .review-cancelled-group-order-page-a, .review-closed-group-order-page-a, .order-confirmation-page-a, .my-invitee-groups-page-a, .create-or-update-invitee-group-page-a {
     width:100%!important;
     position:static!important;
 }
-.my-account-page-b, .home-page-b, .search-locations-criteria-and-result-page-b, .search-locations-results-page-b, .location-details-page-b, .checkout-page-b, .catering-page-b, .review-and-checkout-page-b, .order-confirmation-page-b, .order-date-time-page-b, .step-by-step-customization-page-b, .login-page-b, .about-us-b, .contact-us-page-b, .order-summary-page-b, .create-account-page-b, .terms-and-conditions-page-b, .privacy-policy-page-b, .edit-account-page-b, .edit-billing-address-page-b, .my-past-orders-page-b, .my-favorite-orders-page-b, .menu-page-b, .create-group-order-page-b, .my-group-orders-page-b, .review-group-order-page-b, .forgot-password-page-b, .reset-password-page-b, .group-order-invitation-sent-page-b, .review-open-group-order-page-b, .review-cancelled-group-order-page-b, .review-closed-group-order-page-b, .order-confirmation-page-b {
+.my-account-page-b, .home-page-b, .search-locations-criteria-and-result-page-b, .search-locations-results-page-b, .location-details-page-b, .checkout-page-b, .catering-page-b, .review-and-checkout-page-b, .order-confirmation-page-b, .order-date-time-page-b, .step-by-step-customization-page-b, .login-page-b, .about-us-b, .contact-us-page-b, .order-summary-page-b, .create-account-page-b, .terms-and-conditions-page-b, .privacy-policy-page-b, .edit-account-page-b, .edit-billing-address-page-b, .my-past-orders-page-b, .my-favorite-orders-page-b, .menu-page-b, .create-group-order-page-b, .my-group-orders-page-b, .review-group-order-page-b, .forgot-password-page-b, .reset-password-page-b, .group-order-invitation-sent-page-b, .review-open-group-order-page-b, .review-cancelled-group-order-page-b, .review-closed-group-order-page-b, .order-confirmation-page-b, .my-invitee-groups-page-b, .create-or-update-invitee-group-page-b {
     position:static!important;
     text-align:left;
     height:100%;
@@ -1564,7 +1606,7 @@ div.border-1px {
     display:table!important;
     table-layout:fixed!important;
 }
-.login-page-c, .edit-account-page-c, .my-account-page-c, .privacy-policy-page-c, .terms-and-conditions-page-c, .create-account-page-c, .order-summary-page-c, .contact-us-page-c, .step-by-step-customization-page-c, .order-date-time-page-c, .order-confirmation-page-c, .review-and-checkout-page-c, .catering-page-c, .checkout-page-c, .location-details-page-c, .menu-page-c, .home-page-c, .search-locations-criteria-and-result-page-c, .search-locations-results-page-c, .edit-billing-address-page-c, .my-past-orders-page-c, .my-favorite-orders-page-c, .create-group-order-page-c, .my-group-orders-page-c, .review-group-order-page-c, .forgot-password-page-c, .reset-password-page-c, .group-order-invitation-sent-page-c, .review-open-group-order-page-c, .review-cancelled-group-order-page-c, .review-closed-group-order-page-c, .order-confirmation-page-c {
+.login-page-c, .edit-account-page-c, .my-account-page-c, .privacy-policy-page-c, .terms-and-conditions-page-c, .create-account-page-c, .order-summary-page-c, .contact-us-page-c, .step-by-step-customization-page-c, .order-date-time-page-c, .order-confirmation-page-c, .review-and-checkout-page-c, .catering-page-c, .checkout-page-c, .location-details-page-c, .menu-page-c, .home-page-c, .search-locations-criteria-and-result-page-c, .search-locations-results-page-c, .edit-billing-address-page-c, .my-past-orders-page-c, .my-favorite-orders-page-c, .create-group-order-page-c, .my-group-orders-page-c, .review-group-order-page-c, .forgot-password-page-c, .reset-password-page-c, .group-order-invitation-sent-page-c, .review-open-group-order-page-c, .review-cancelled-group-order-page-c, .review-closed-group-order-page-c, .order-confirmation-page-c, .my-invitee-groups-page-c, .create-or-update-invitee-group-page-c {
     position:static!important;
     width:100%!important;
 }
@@ -1700,7 +1742,7 @@ div.ui-res-my-account-navigation-container ul li {
 div.ui-res-my-account-navigation-container #PAST_ORDERS, div.ui-res-my-account-navigation-container #FAVORITES, div.ui-res-my-account-navigation-container #PROFILE {
     padding-left:10px!important;
 }
-.create-new-order, .my-group-orders {
+.create-new-order, .my-group-orders, .my-invitee-groups {
     padding-left:10px!important;
 }
 #GROUPORDER data-tag="rw-header-group-ordering-click"] {
@@ -3215,12 +3257,29 @@ td.price {
     font-weight:bold;
     padding-bottom:16px;
 }
-.search-locations-criteria-and-result-page-b .choose-location-btn .change-date-time-btn, .search-locations-results-page-b .choose-location-btn .change-date-time-btn {
+.search-locations-criteria-and-result-page-b .choose-location-btn .change-date-time-btn, .search-locations-results-page-b .choose-location-btn .change-date-time-btn, .start-group-order-link-container {
     background-image:url("//images.testwebhotel.microsdc.us/eatnparkv7/get/w/122/h/33/button-red-bg.image?notfound=notavailable");
     font-family:'chunckfive', serif;
     font-size:10px;
     font-weight:normal;
     padding:7px 11px;
+}
+.start-group-order-link-container {
+    margin-right: 10px;
+    height: 11px;
+    box-shadow: .25em .25em #c5b39d;
+    -moz-box-shadow: .25em .25em #c5b39d;
+    -webkit-box-shadow: .25em .25em #c5b39d;
+}
+.start-group-order-link-container a {
+    color:#fff;
+    text-decoration:none;
+}
+a.start-grouporder-help-link {
+    background-color: #fff;
+    color: #a73937;
+    font-weight: normal;
+    padding-right: 1px;
 }
 .search-locations-criteria-and-result-page-b .ui-res-locations-search-result-map-container .select-date-time-container {
     display:inline-block;
@@ -3795,7 +3854,7 @@ table.ui-res-checkout-input-table td {
     margin-right:2%;
     width:39.5%;
 }
-.create-group-order-page-b .headerdot, .review-open-group-order-page-b .headerdot, .review-group-order-page-b .headerdot {
+.review-open-group-order-page-b .headerdot, .review-group-order-page-b .headerdot {
     width:37%;
 }
 .edit-account-page-b .headerdot {
@@ -3846,9 +3905,6 @@ table.ui-res-checkout-input-table td {
 }
 .menu-page-b .headerdot {
     width:76%;
-}
-.my-group-orders-page-b .headerdot {
-    width:32%;
 }
 .ui-myres-menu-store-offline-popup-content .title {
     color:#000!important;
