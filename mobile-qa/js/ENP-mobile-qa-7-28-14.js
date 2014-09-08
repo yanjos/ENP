@@ -1,4 +1,13 @@
 <!-- Debug for Chrome LATEST 4-30-14 --><script src="/js/bootstrap.min.js" type="text/javascript"></script><script>
+/*Specials temp jquery functionality*/
+    $('.promo-1, .promo-2, .promo-3, .promo-4').wrapAll('<div class="promo-wrap"/>');
+
+    if($('.selected-menu-category-item-title:contains("Deals")').length){
+        $('.menu-grid').hide();
+        $('.promo-wrap').show(); 
+    }else{
+        $('.promo-wrap').hide();
+    }
 /*Shows and hides a stores pickup time drop downs.*/
 $('input:radio[name="showOrderDateTime"]').live('change',function(){
     var $nextAvailRadioBtn = $('#showFirstOrderDateTime');
@@ -36,7 +45,7 @@ if(!$('.enp-body-modals').length){
     $('div[class*="-page-b"]').prepend('<div class="enp-body-modals"/>');
 }
 if(!$('.enp-popup-modals').length){
-    $('body').append('<div class="enp-popup-modals"/><div class="enp-popup-modals-overlay"/>');
+    $('body').append('<div class="enp-popup-modals"/>');
 }
 
 // START
@@ -47,15 +56,15 @@ $(document).on("dialogopen", ".ui-res-modal", function(event, ui) {
     // START SetTimeout
     setTimeout(function() {
         // Show overlay if popup modal is visible
-        if($('.enp-popup-modals .ui-dialog:visible').length) {
-            $('.enp-popup-modals-overlay').show();
-        }
-        
+        //if($('.enp-popup-modals .ui-dialog:visible').length) {
+        //    $('.enp-popup-modals-overlay').show();
+        //}
+
         // On menu page, hide custom wrapped menu if dialog opened was the menu item (enp-body-modal type)
         if($('.enp-body-modals .ui-dialog:visible').length) {
             $('.custom-wrapped-menu').hide();
         }
-        
+
         /*Updates Special Instruction form input field to maxlength of 16 on menu and review and checkout page*/
         $('.specialInstruction-input input, .ui-res-menu-grid-item-specialinstructions-modalscreen-container input').attr('maxlength','16');
 
@@ -70,9 +79,9 @@ $(document).on("dialogopen", ".ui-res-modal", function(event, ui) {
 
         /*Function to replace header title of modal popup. Passes the MCP close function (modalType) and Title of modal popup (selectedCategory)*/
         function selectedCategoryToTitleFunction(selectedCategory, modalType) {
-            var onclickAttr = 'closeDisplayModalScreen';
-            if(modalType=='updateMenuItem'){ onclickAttr = 'doCloseEditItemDialog'; }
-            $('.ui-res-menu-grid-item-main-controls-modalscreen-container .title:first').replaceWith('<div class="customCategoryTitleModal cpointer" onclick="'+onclickAttr+'(this)"> <i class="fa fa-caret-left"></i> '+ selectedCategory+'</div>'); 
+            var onclickAttr = 'closeDisplayModalScreen(this)';
+            if(modalType=='updateMenuItem'){ onclickAttr = 'closeDisplayModalScreen(this);doCloseEditItemDialog(this);'; }
+            $('.ui-res-menu-grid-item-main-controls-modalscreen-container .title:first').replaceWith('<div class="customCategoryTitleModal cpointer" onclick="'+onclickAttr+'"> <i class="fa fa-caret-left"></i> '+ selectedCategory+'</div>'); 
         }
 
         if(!$('.customCategoryTitleModal, .ui-res-main-section-header').length){
@@ -86,9 +95,9 @@ $(document).on("dialogopen", ".ui-res-modal", function(event, ui) {
         }
 
         $('button:contains("Close"),.expand-collapse-title').hide();
-        
+
         //$('.custom-wrapped-menu').hide();
-        
+
         //START
         //$('.menu-page-b .ui-dialog, .my-profile .ui-dialog, .my-favorite-orders-page-b .ui-dialog').first().addClass('currentMenuItemModal');
         //$('.menu-page-b .ui-dialog').not('.currentMenuItemModal').addClass('currentMenuItemAdditionalModal');
@@ -107,7 +116,7 @@ $(document).on("dialogopen", ".ui-res-modal", function(event, ui) {
 
         if($('.review-and-checkout').length){
             if(!$('.cancelBtn').length){
-                $('.ui-res-menu-grid-item-modalscreen-container').append('<button class="button button-1 cancelBtn" onclick="doCloseEditItemDialog(this)">Cancel</a>');
+                $('.ui-res-menu-grid-item-modalscreen-container').append('<button class="button button-1 cancelBtn" onclick="closeDisplayModalScreen(this);doCloseEditItemDialog(this);">Cancel</a>');
             }
         }else{
             if(!$('.bckMenuBtn').length){
@@ -126,9 +135,9 @@ $(document).on("dialogopen", ".ui-res-modal", function(event, ui) {
         var newEventHandler = function() { 
             closeValidateAddToCartModal(this);
             //$('.currentMenuItemModal').show();
-            if(!$('.enp-popup-modals .ui-dialog:visible').length) {
-                $('.enp-popup-modals-overlay').hide();
-            }
+            //if(!$('.enp-popup-modals .ui-dialog:visible').length) {
+            //    $('.enp-popup-modals-overlay').hide();
+            //}
         };
         $('.ui-res-menuGrid-add-order-validate-error-btns button').unbind('click', originalEventHandler).click(newEventHandler);
 
@@ -161,9 +170,9 @@ $(document).on( "dialogclose", function( event, ui ) {
     $('.custom-wrapped-menu').show();
 
     // Hide overlay if popup modal is not visible
-    if(!$('.enp-popup-modals .ui-dialog:visible').length) {
-        $('.enp-popup-modals-overlay').hide();
-    }
+    //if(!$('.enp-popup-modals .ui-dialog:visible').length) {
+    //    $('.enp-popup-modals-overlay').hide();
+    //}
 });
 //END
 $(window).load(function() {
@@ -194,15 +203,13 @@ $(window).load(function() {
             if(nutritionFacts =='') { $('.item-nutrition-facts').text('None Available.'); }
         });
 
-        if ( window.location.pathname.indexOf('select_menu') >= 0 )
+        if ( window.location.href.indexOf('?RESET_MENU=Y') > 0 || $('.selected-menu-category-item-title').text() == "Our Menu")
         {
-            $('.menu-img').hide();
+            $('.menu-img').show();
+        }else{
+           $('.menu-img').hide(); 
         }
 
-        if ( window.location.pathname.indexOf('add_to_cart') >= 0 )
-        {
-            $('.menu-img').hide();
-        }
     }
 
     if($('.order-confirmation').length){
@@ -241,6 +248,11 @@ $(window).load(function() {
             active: false,
             icons: { "header": "ui-icon-plus", "activeHeader": "ui-icon-minus" }
         });
+        /*Expands Sign in area if user resets their password*/
+        var pathname = window.location.href;
+        if (pathname.indexOf('LAST_ACTION=FORGOT_PASSWORD_SUCCESS') > -1){
+            $( "#accordion" ).accordion({ active: 0 });
+        }
         //Replaces email address with MCP defined name value for logged in user
         var newNameLabel = $('.ui-res-header-login-user a').text();
         $('.ui-res-profile-login-loggedin-msg a').text(newNameLabel);
@@ -353,13 +365,19 @@ $(window).load(function() {
         });
     }
 
-    /*Naples must fix showing menu prices in Responsive Template from hidden item-price field to avoid this hack*/
     if($('.menu').length){
+        /*Naples must fix showing menu prices in Responsive Template from hidden item-price field to avoid this hack*/
         $('.menu-list-item').each(function(){
             var $localItemPrice = $(this).find('.item-price');
             var localItemPriceValue = parseFloat($localItemPrice.val()).toFixed(2);
             $localItemPrice.before('<div class="menu-list-item-price">$'+localItemPriceValue+'</div>');
         });
+        
+        /*Reset Menu if url parameter exists and hide currently loaded menu category related elements and show accordion menu*/
+        if(window.location.href.indexOf("menu.jsp?RESET_MENU=Y") > -1) {
+            $('.custom-wrapped-menu').find('.selected-menu-category-title, .selected-category-description, .menu-grid').hide();
+            $('.custom-wrapped-menu').find('.accordion-menu').show();
+        }
     }
     if($('.my-profile').length){
         var firstname1 = $('.firstName-input span').html();
