@@ -59,7 +59,7 @@
     overflow:hidden;
 }
 .add-group-member-form-container .field-container .remove:before {
-    content:"delete";
+    content:"Remove";
     font-size:10px;
 }
 .ui-res-group-order-confirmation-number-container {
