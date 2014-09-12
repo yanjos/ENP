@@ -49,13 +49,13 @@
 }
 .ui-res-group-order-add-group-members-modal input.ui-res-input-text.email, input.ui-res-input-text.email-domain {
     display:inline-block!important;
-    width:40%!important;
+    width:38%!important;
 }
 .add-group-member-form-container .field-container .remove {
     position:relative;
-    right:-410px;
+    right:-403px;
     top:-24px;
-    width:32px!important;
+    width:40px!important;
     overflow:hidden;
 }
 .add-group-member-form-container .field-container .remove:before {
