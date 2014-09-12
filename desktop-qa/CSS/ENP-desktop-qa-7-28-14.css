@@ -13,11 +13,68 @@
     font-weight:normal;
     src:url("//images.testwebhotel.microsdc.us/eatnparkv7/font/coffeeservice-webfont.woff") format("woff");
 }
+.ui-res-group-order-order-limit-per-person-input-container:before {
+    content:'Please enter a dollar value, without decimals';
+    display:block;
+    margin-bottom:5px;
+    font-style:italic;
+    font-size:11px;
+}
+.add-group-member-form-container {
+    clear:both;
+}
+.ui-res-group-order-add-group-members-modal .field-container {
+    display:inline-block!important;
+    float:left;
+    width:21%;
+    margin-left:5px;
+}
+.ui-res-group-order-add-group-members-modal .field-container.email {
+    width:50%;
+}
+.ui-res-group-order-add-group-members-modal .field-separator {
+    display:none;
+}
+.ui-res-group-order-add-group-members-modal .label-container {
+    display:block!important;
+    font-weight:bold;
+    text-align:left!important;
+    margin-bottom:5px;
+}
+.ui-res-group-order-add-group-members-modal input.ui-res-input-text {
+    width:100%;
+}
+.ui-res-group-order-add-group-members-modal .save-list-for-future-use-area {
+    clear:both;
+}
+.ui-res-group-order-add-group-members-modal input.ui-res-input-text.email, input.ui-res-input-text.email-domain {
+    display:inline-block!important;
+    width:40%!important;
+}
+.add-group-member-form-container .field-container .remove {
+    position:relative;
+    right:-407px;
+    top:-24px;
+    width:32px!important;
+    overflow:hidden;
+}
+.add-group-member-form-container .field-container .remove:before {
+    content:"delete";
+    font-size:10px;
+}
+.ui-res-group-order-confirmation-number-container {
+    display:none;
+}
 .ui-res-group-order-my-invitee-group-list-table-container {
     background-color:#f9eedc!important;
 }
 .ui-res-group-order-group-members-container {
     margin-bottom:0!important;
+}
+.ui-res-group-order-order-limit-per-person-label:after {
+    content:"*";
+    padding-left:5px;
+    color:red;
 }
 input.ui-res-group-order-group-name-input {
     margin-top:-4px;
@@ -3265,21 +3322,21 @@ td.price {
     padding:7px 11px;
 }
 .start-group-order-link-container {
-    margin-right: 10px;
-    height: 11px;
-    box-shadow: .25em .25em #c5b39d;
-    -moz-box-shadow: .25em .25em #c5b39d;
-    -webkit-box-shadow: .25em .25em #c5b39d;
+    margin-right:10px;
+    height:11px;
+    box-shadow:.25em .25em #c5b39d;
+    -moz-box-shadow:.25em .25em #c5b39d;
+    -webkit-box-shadow:.25em .25em #c5b39d;
 }
 .start-group-order-link-container a {
     color:#fff;
     text-decoration:none;
 }
 a.start-grouporder-help-link {
-    background-color: #fff;
-    color: #a73937;
-    font-weight: normal;
-    padding-right: 1px;
+    background-color:#fff;
+    color:#a73937;
+    font-weight:normal;
+    padding-right:1px;
 }
 .search-locations-criteria-and-result-page-b .ui-res-locations-search-result-map-container .select-date-time-container {
     display:inline-block;
@@ -3378,7 +3435,6 @@ table td .select-date-time-container {
 .search-locations-results-page-b .ui-res-address-det-btns {
     float:right;
     margin-right:-170px;
-    margin-top:-28px;
 }
 .search-locations-results-page-b #restaurant-loc-map-canvas {
     float:right;
