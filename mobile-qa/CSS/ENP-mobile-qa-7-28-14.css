@@ -1,4 +1,10 @@
 @font-face {
+    font-family:'FontAwesome';
+    src:url('../fonts/fontawesome-webfont.eot?#iefix&v=3.2.1') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff?v=3.2.1') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=3.2.1') format('truetype'), url('../fonts/fontawesome-webfont.svg#fontawesomeregular?v=3.2.1') format('svg');
+    font-weight:normal;
+    font-style:normal;
+}
+@font-face {
     font-family:"chunkfive";
     font-style:normal;
     font-weight:normal;
@@ -24,13 +30,23 @@
         font-weight:normal;
     }
 }
+.ui-res-update-edit-basket-item-flow-modal-screen .ui-res-update-order-item-dialog.ui-dialog-content.ui-widget-content {
+    background-image:url("//images.testwebhotel.microsdc.us/enp.mobile/get/w/50/h/50/main_bckground.image?")!important;
+    border-radius:10px;
+    box-shadow:1px 2px 5px 2px rgba(0, 0, 0, 0.7);
+    padding:1em 1em 40px!important;
+}
+.ui-res-menu-item-modal-screen, .ui-res-update-menu-item-modal-screen {
+    position:static!important;
+}
+.ui-res-voucher-description-container {
+    display:block;
+    text-align:left;
+    word-wrap:break-word;
+}
 .enp-popup-modals {
-    left:8px;
     margin:0 auto;
-    position:absolute;
-    top:66px;
     width:95%;
-    z-index:900;
 }
 .enp-popup-modals .ui-res-out-of-range-confirmation-dialog, .enp-popup-modals .ui-res-update-to-zero-confirmation-dialog {
     display:none!important;
@@ -39,7 +55,9 @@
     background:#fff2cc!important;
     border-radius:10px;
     box-shadow:1px 2px 5px 2px rgba(0, 0, 0, 0.7);
+    margin-left:10px;
     padding:7px;
+    width:94%!important;
 }
 .enp-popup-modals .ui-dialog-content {
     padding:0!important;
@@ -162,9 +180,6 @@ html {
     color:#000;
     min-height:575px;
 }
-body>.ui-widget-overlay {
-    display:none!important;
-}
 body {
     background:transparent!important;
     min-height:575px;
@@ -191,10 +206,6 @@ body {
 .ui-dialog {
     width:100%!important;
     left:0!important;
-    position:static!important;
-}
-.ui-dialog.currentMenuItemModal {
-    background:transparent!important;
 }
 .ui-res-empty-basket-message-popup {
     display:none;
@@ -290,7 +301,8 @@ a.ui-res-locations-view-all-link {
     margin:5px 0!important;
 }
 .ui-myres-multi-level-mods .config-modifier-select {
-    width:95%!important;
+    width:100%!important;
+    margin:0!important;
 }
 .cc-menu-btn {
     margin:15px 0 20px;
@@ -691,6 +703,9 @@ header.masthead, .jqm-header-container>ul {
 .review-and-checkout .upsell-items-container {
     border-bottom:3px dotted #000;
     padding:15px 0 4px 0;
+}
+.ui-res-order-amount-label {
+    display:inline!important;
 }
 button {
     text-transform:none!important;
@@ -1118,6 +1133,7 @@ h3.ui-accordion-header {
     position:relative;
     margin-top:10px;
 }
+
 .button, input.button, button.button, .ui-myres-multi-level-mods .expand-collapse-btn, .group_btns button, .store-details-return-home a {
     background-color:#cd2b1f;
     background-image:url("//images.testwebhotel.microsdc.us/enp.mobile/get/w/122/h/33/button-red-bg.image?");
@@ -1420,8 +1436,15 @@ footer .ui-res-footer-interior-navigation-container .ui-res-footer-interior-navi
     border:0;
 }
 .config-modifier-title-img {
-    border-radius:5px;
-    -webkit-border-radius:5px;
+    border:1px solid #aaa;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    -webkit-border-top-left-radius:5px;
+    -webkit-border-top-right-radius:5px;
+    -webkit-border-bottom-left-radius:5px;
+    -webkit-border-bottom-right-radius:5px;
 }
 .ui-res-menu-grid-item {
     margin-bottom:0!important;
@@ -1461,6 +1484,10 @@ footer .ui-res-footer-interior-navigation-container .ui-res-footer-interior-navi
 .currentMenuItemModal .ui-res-lbl-img-icon-img-img {
     height:auto!important;
     width:100%!important;
+}
+.promo-1 img, .promo-2 img, .promo-3 img, .promo-4 img {
+    border-radius: 10px;
+    -webkit-border-radius:10px;
 }
 .ui-res-lbl-img-icon-img-img {
     border-radius:10px!important;
@@ -2302,10 +2329,6 @@ text-shadow:2px 2px 2px #555;
     text-shadow:2px 2px #000;
     width:100%;
 }
-.menu .ui-widget-overlay {
-    display:none!important;
-    z-index:-1!important;
-}
 .ui-res-modal {
     border:0!important;
     box-shadow:none!important;
@@ -2380,8 +2403,7 @@ text-shadow:2px 2px 2px #555;
     margin-top:5px!important;
 }
 .config-main-container.ui-myres-multi-level-mods.config-main-controls-modalscreen-container {
-    padding-left:.5em!important;
-    width:99%;
+    width:100%;
     border-bottom:3px dotted #000!important;
 }
 .ui-res-non-mandatory-related-products-container-separator {
@@ -2431,9 +2453,6 @@ text-shadow:2px 2px 2px #555;
     }
 }
 @media screen and (min-width:0) and (max-width:767px) {
-    .ui-widget-overlay {
-        display:none;
-    }
     div.ui-dialog.ui-widget-content {
         margin-top:5px;
     }
