@@ -35,7 +35,8 @@
     font-size:18px;
 }
 .returning-customer-txt, .new-customer-txt {
-	 margin-left:10px;
+    margin-left:10px;
+    overflow:hidden;
 }
 .ui-res-update-edit-basket-item-flow-modal-screen .ui-res-update-order-item-dialog.ui-dialog-content.ui-widget-content {
     background-image:url("//images.testwebhotel.microsdc.us/enp.mobile/get/w/50/h/50/main_bckground.image?")!important;
@@ -1051,7 +1052,7 @@ div.sign-up-title {
     margin-left:5px;
     display:none!important;
 }
-.ui-res-login-create-account, .login .ui-res-login-order-as-guest {
+.ui-res-login-create-account, .login .ui-res-login-order-as-guest, .ui-res-login-create-account-btn {
     background-image:url("//images.testwebhotel.microsdc.us/enp.mobile/get/w/204/h/32/green_btn2.image");
     background-repeat:no-repeat;
     border-radius:.5em;
@@ -1077,7 +1078,7 @@ div.sign-up-title {
     width:173px;
     padding-right:0;
 }
-.ui-res-login-create-account:hover {
+.ui-res-login-create-account:hover, .ui-res-login-create-account-btn:hover {
     color:#FFF!important;
 }
 .login-form, .group-area {
