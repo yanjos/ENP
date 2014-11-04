@@ -1486,7 +1486,8 @@ footer .ui-res-footer-interior-navigation-container .ui-res-footer-interior-navi
     margin-bottom:.5em;
 }
 .ui-res-lbl-img-icon-img-img {
-    height:auto!important;
+    height:192!important;
+  	width:240px !important;
 }
 .currentMenuItemModal .ui-res-lbl-img-icon-img-img {
     height:auto!important;
