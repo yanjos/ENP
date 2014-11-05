@@ -1012,6 +1012,7 @@ div.ui-res-edit-address-btn-container {
 div.ui-res-login-btn-container {
     padding:10px 0!important;
     text-align:left!important;
+  	margin-top: -20px;
 }
 .ui-res-email-club-sign-up .sign-up-container {
     padding-bottom:13px;
@@ -1072,7 +1073,7 @@ div.sign-up-title {
     width:202px;
 }
 .login a.ui-res-login-order-as-guest {
-    top:42px;
+    top:22px;
     float:right;
     font-size:14px;
     width:173px;
