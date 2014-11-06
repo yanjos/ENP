@@ -119,9 +119,7 @@ input.ui-res-group-order-group-name-input {
     font-weight:bold;
     color:#F00;
 }
-.ui-res-lbl-img-icon-price-div:before {
-    content:'$';
-}
+
 .ui-dialog #menu-item-hidden-10732 .ui-res-lbl-img-icon-price-div:before {
     content:'Starting at $';
 }
