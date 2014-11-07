@@ -1009,10 +1009,10 @@ div.ui-res-edit-address-btn-container {
     padding:10px 0!important;
     text-align:center!important;
 }
-div.ui-res-login-btn-container {
+.my-account div.ui-res-login-btn-container {
     padding:10px 0!important;
     text-align:left!important;
-  	margin-top: -20px;
+    margin-top:-20px;
 }
 .ui-res-email-club-sign-up .sign-up-container {
     padding-bottom:13px;
@@ -1495,10 +1495,9 @@ footer .ui-res-footer-interior-navigation-container .ui-res-footer-interior-navi
 .overview-modalscreen-container .ui-res-lbl-img-icon-img .ui-res-lbl-img-icon-img-img {
     height:192px!important;
     width:240px!important;
+  	margin-bottom:20px;
 }
-.overview-modalscreen-container .ui-res-lbl-img-icon-img {
-    margin-bottom:20px;
-}
+
 .promo-1 img, .promo-2 img, .promo-3 img, .promo-4 img {
     border-radius:10px;
     -webkit-border-radius:10px;
