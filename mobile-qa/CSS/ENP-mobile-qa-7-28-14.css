@@ -30,6 +30,15 @@
         font-weight:normal;
     }
 }
+.ui-res-dialog-mobile .button-1 {
+    display:inline-block!important;
+}
+#update-pick-up-time-form-popup-confirm select {
+    margin-right:20px;
+}
+#edit-pick-time-container-popup-confirm .title {
+    font-size:27px;
+}
 .subheader {
     font-family:'chunkfive';
     font-size:18px;
@@ -1495,9 +1504,8 @@ footer .ui-res-footer-interior-navigation-container .ui-res-footer-interior-navi
 .overview-modalscreen-container .ui-res-lbl-img-icon-img .ui-res-lbl-img-icon-img-img {
     height:192px!important;
     width:240px!important;
-  	margin-bottom:20px;
+    margin-bottom:20px;
 }
-
 .promo-1 img, .promo-2 img, .promo-3 img, .promo-4 img {
     border-radius:10px;
     -webkit-border-radius:10px;
