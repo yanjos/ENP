@@ -1194,7 +1194,7 @@ h3.ui-accordion-header {
 .ui-res-error-msg-item-container ul li {
     height:auto!important;
 }
-.cancel-create-btn, .edit-billing-address-page-b .ui-res-edit-address-btn-container button:last-child, .cancelBtn, .order-as-guest-btn {
+.cancel-create-btn, .edit-billing-address-page-b .ui-res-edit-address-btn-container button:last-child, .cancelBtn, .order-as-guest-btn, .no-order-slots-close-btn {
     background-image:url("//images.testwebhotel.microsdc.us/enp.mobile/get/w/124/h/34/grey-btn.image")!important;
     background-color:#888!important;
 }
