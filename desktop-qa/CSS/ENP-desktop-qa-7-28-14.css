@@ -215,7 +215,7 @@ form#update-pick-up-time-form-internals-order-status .update-btn.update-btn-off 
     background:url("//images.testwebhotel.microsdc.us/eatnparkv7/get/w/124/h/34/green-btn.image") repeat scroll 0 0 / 125% 125% rgba(0, 0, 0, 0)!important;
 }
 .ui-res-confirm-new-order-date-time-popup-dialog .title {
-    font-family:'chunckfive';
+    font-family:'chunckfive', 'britannic_boldregular';
     font-size:21px;
     font-weight:normal!important;
 }
@@ -246,14 +246,14 @@ form#update-pick-up-time-form-internals-order-status .update-btn.update-btn-off 
     padding:12px 0!important;
 }
 .ui-res-update-invalid-order-date-time-popup-dialog .title {
-    font-family:'chunckfive';
+    font-family:'chunckfive', 'britannic_boldregular';
     font-size:21px;
     font-weight:normal!important;
     padding:17px 0 8px!important;
 }
 .ui-res-update-invalid-order-date-time-popup-dialog .title {
     background:url("//images.testwebhotel.microsdc.us/eatnparkv7/get//orange-triangle.image") no-repeat scroll 3px 2px / 10% auto rgba(0, 0, 0, 0)!important;
-    font-family:'chunckfive';
+    font-family:'chunckfive', 'britannic_boldregular';
     font-size:21px;
     font-weight:normal!important;
     height:21px;
@@ -291,7 +291,7 @@ form#update-pick-up-time-form-internals-order-status .update-btn.update-btn-off 
     border:0!important;
     color:#000!important;
     display:block;
-    font-family:'chunckfive';
+    font-family:'chunckfive', 'britannic_boldregular';
     font-size:30px!important;
     font-style:normal!important;
     font-weight:normal!important;
@@ -671,7 +671,7 @@ html {
     margin-bottom:20px!important;
     text-align:center;
     color:#000!important;
-    font-family:'chunckfive';
+    font-family:'chunckfive', 'britannic_boldregular';
     font-size:30px!important;
     font-weight:normal!important;
     padding-top:15px;
@@ -920,7 +920,7 @@ table.ui-res-login-input-table td {
     right:-31px;
 }
 .eatnpark-placeholder {
-    font-family:'chunckfive';
+    font-family:'chunckfive', 'britannic_boldregular';
     font-size:22px;
     padding-left:10px;
     padding-right:3px;
@@ -955,7 +955,7 @@ table.ui-res-login-input-table td {
     padding-left:0!important;
 }
 .welcome-container .title {
-    font-family:'chunckfive';
+    font-family:'chunckfive', 'britannic_boldregular';
     font-size:16px;
     font-weight:normal!important;
 }
@@ -975,10 +975,10 @@ table.ui-res-login-input-table td {
     color:#000;
     font-size:1.2em;
     padding:.25em 0;
-    font-family:'chunckfive'!important;
+    font-family:'chunckfive', 'britannic_boldregular' !important;
 }
 .ui-res-group-order-nav-container .welcome, .ui-res-group-order-nav-container .back-to-menu {
-    font-family:'chunckfive'!important;
+    font-family:'chunckfive', 'britannic_boldregular' !important;
     font-size:1.2em;
     font-weight:normal!important;
     padding:.25em 0;
@@ -996,7 +996,7 @@ table.ui-res-create-account-input-table td {
 }
 div.ui-res-my-account-navigation-container ul li#GROUPORDER a, div.ui-res-my-account-navigation-container ul li#MENU a {
     color:#fff;
-    font-family:'chunckfive';
+    font-family:'chunckfive', 'britannic_boldregular';
     font-size:14px;
     font-weight:normal!important;
 }
@@ -1142,7 +1142,7 @@ div.ui-res-my-account-view-btn-container {
 }
 .title-container, .ui-res-account-options-dialog .message-container {
     color:#000!important;
-    font-family:'chunckfive';
+    font-family:'chunckfive', 'britannic_boldregular';
     font-size:30px!important;
     font-weight:normal!important;
     padding-top:15px;
@@ -1198,7 +1198,7 @@ div.ui-res-my-account-view-btn-container {
     background-size:125% 125%;
     border-radius:.5em .5em .5em .5em!important;
     -webkit-border-radius:.5em .5em .5em .5em!important;
-    font-family:'chunckfive', serif!important;
+    font-family:'chunckfive', 'britannic_boldregular',  serif!important;
     font-size:14px!important;
     font-weight:normal!important;
     padding:6px;
@@ -1236,7 +1236,7 @@ button.remove-applied-vouchers {
 .button-2, input.button-2, button.button-2 {
     background-image:url("//images.testwebhotel.microsdc.us/eatnparkv7/get/w/124/h/34/grey-btn.image");
     background-size:125% 125%;
-    font-family:'chunckfive', serif!important;
+    font-family:'chunckfive', 'britannic_boldregular', serif!important;
     font-size:14px!important;
     font-weight:normal!important;
     padding:7px;
@@ -1247,7 +1247,7 @@ button.remove-applied-vouchers {
 .button-3, input.button-3, button.button-3, .add-submit-order-btn {
     background-image:url("//images.testwebhotel.microsdc.us/eatnparkv7/get/w/124/h/34/green-btn.image");
     background-size:125% 125%;
-    font-family:'chunckfive', serif!important;
+    font-family:'chunckfive', 'britannic_boldregular', serif!important;
     font-size:14px!important;
     font-weight:normal!important;
     padding:7px;
@@ -1317,7 +1317,7 @@ div.ui-res-forgot-password-btn-container button {
     padding-top:3px;
 }
 .ui-res-order-location-container .title, .custom-null-container .title, .basket-items-title-container .title, .ui-res-order-date-time-container .title, .total-title-container .title, .ui-res-group-order-label-order-for {
-    font-family:'chunckfive';
+    font-family:'chunckfive', 'britannic_boldregular';
     font-size:16px;
     font-weight:normal!important;
 }
@@ -1399,7 +1399,7 @@ span.ui-res-header-login-user span, span.ui-res-header-login-user a {
 }
 .edit-profile-title {
     color:#000!important;
-    font-family:'chunckfive';
+    font-family:'chunckfive', 'britannic_boldregular';
     font-size:36px;
     font-weight:normal!important;
     margin-left:34px!important;
@@ -1407,7 +1407,7 @@ span.ui-res-header-login-user span, span.ui-res-header-login-user a {
     text-shadow:2px 2px #eabd67, 0 -1px 0 #eabd67, 0 1px 0 #000, -1px 0 0 #eabd67, 1px 0 0 #eabd67!important;
 }
 .ui-res-header-account-and-cart-navigation-items-in-cart {
-    font-family:'chunckfive', serif;
+    font-family:'chunckfive', 'britannic_boldregular', serif;
     font-size:20px;
     font-weight:normal;
     position:absolute;
@@ -1476,7 +1476,7 @@ span.ui-res-header-login-user span, span.ui-res-header-login-user a {
 }
 .ui-res-main-section-header {
     color:#000!important;
-    font-family:'chunckfive';
+    font-family:'chunckfive', 'britannic_boldregular';
     font-size:36px;
     font-weight:normal!important;
     padding:20px 10px 10px 25px!important;
@@ -1559,7 +1559,7 @@ div.border-1px {
     border-top:1px solid transparent!important;
 }
 .diff-font {
-    font-family:'chunckfive'!important;
+    font-family:'chunckfive', 'britannic_boldregular' !important;
     font-weight:normal!important;
 }
 .ui-res-header-main-navigation-container-parent {
@@ -1723,7 +1723,7 @@ div.border-1px {
     box-shadow:2px 3px 2px #c5b39d;
     color:#fff;
     float:right;
-    font-family:'chunckfive';
+    font-family:'chunckfive', 'britannic_boldregular';
     font-size:14px;
     font-weight:normal!important;
     height:23px;
@@ -1742,7 +1742,7 @@ div.border-1px {
     box-shadow:2px 3px 2px #c5b39d;
     color:#fff;
     float:right;
-    font-family:'chunckfive';
+    font-family:'chunckfive', 'britannic_boldregular';
     font-size:11px;
     font-weight:normal!important;
     height:23px;
@@ -1896,7 +1896,7 @@ div.ui-res-my-account-navigation-container #PAST_ORDERS, div.ui-res-my-account-n
     width:434px!important;
 }
 .homereturnhd {
-    font-family:'chunckfive';
+    font-family:'chunckfive', 'britannic_boldregular';
     font-size:18px;
     margin-top:-17px;
     position:absolute;
@@ -1921,7 +1921,7 @@ div.ui-res-login-btn-container button.login-btn {
 .newcustomers button.new-account-btn {
     background-image:url("//images.testwebhotel.microsdc.us/eatnparkv7/get/w/122/h/33/button-red-bg.image?notfound=notavailable");
     background-size:cover;
-    font-family:'chunckfive', serif;
+    font-family:'chunckfive', 'britannic_boldregular', serif;
     font-size:11px;
     font-weight:normal;
     margin-top:64px;
@@ -1948,7 +1948,7 @@ table.ui-res-login-input-table th {
 }
 .home-page-b .diff-font {
     color:#000!important;
-    font-family:'chunckfive'!important;
+    font-family:'chunckfive', 'britannic_boldregular'!important;
     font-size:18px;
     text-align:left;
 }
@@ -1967,7 +1967,7 @@ table.ui-res-login-input-table th {
 #home_banner {
     background-image:url("//images.testwebhotel.microsdc.us/eatnparkv7/get/w/1014/h/1/home_banner.image?notfound=notavai");
     color:#fff!important;
-    font-family:'chunckfive', serif;
+    font-family:'chunckfive', 'britannic_boldregular', serif;
     margin-bottom:5px;
     margin-left:5px;
     padding-bottom:10px;
@@ -2046,7 +2046,7 @@ table.ui-res-login-input-table th {
     font-size:24px;
 }
 .storehours {
-    font-family:'chunckfive';
+    font-family:'chunckfive', 'britannic_boldregular';
     font-size:15px;
     padding-left:14px;
 }
@@ -2196,7 +2196,7 @@ td.price {
     background-size:125% 125%;
     bottom:16px;
     box-shadow:.2em .2em #c5b39d;
-    font-family:'chunckfive', serif!important;
+    font-family:'chunckfive', 'britannic_boldregular',  serif!important;
     font-size:14px!important;
     font-weight:normal!important;
     padding:7px 0!important;
@@ -2239,7 +2239,7 @@ td.price {
 }
 .ui-res-menu-grid-item-main-controls-modalscreen-container div.title, .ui-res-modal-current-order-result {
     color:#000!important;
-    font-family:'chunckfive';
+    font-family:'chunckfive', 'britannic_boldregular';
     font-size:34px;
     font-weight:normal!important;
     text-align:left;
@@ -3019,7 +3019,7 @@ td.price {
 }
 .selected-menu-category-item-title {
     color:#000!important;
-    font-family:'chunckfive';
+    font-family:'chunckfive', 'britannic_boldregular';
     font-size:36px;
     font-weight:normal!important;
     margin-left:10px!important;
@@ -3057,7 +3057,7 @@ td.price {
     box-shadow:.25em .25em #c5b39d;
     color:#fff;
     cursor:pointer;
-    font-family:'chunckfive', serif!important;
+    font-family:'chunckfive', 'britannic_boldregular', serif!important;
     font-size:14px!important;
     font-weight:100!important;
     height:22px;
@@ -3078,7 +3078,7 @@ td.price {
     box-shadow:.25em .25em #c5b39d;
     color:#fff;
     cursor:pointer;
-    font-family:'chunckfive', serif!important;
+    font-family:'chunckfive', 'britannic_boldregular', serif!important;
     font-size:14px!important;
     font-weight:100!important;
     height:22px;
@@ -3107,7 +3107,7 @@ td.price {
     line-height:20px;
 }
 .ui-res-address-det-info-header {
-    font-family:'chunckfive'!important;
+    font-family:'chunckfive', 'britannic_boldregular' !important;
     font-size:14px!important;
     font-weight:normal!important;
 }
@@ -3139,7 +3139,7 @@ td.price {
     background-size:125% 125%;
     border-radius:.5em .5em .5em .5em!important;
     color:#fff;
-    font-family:'chunckfive', serif!important;
+    font-family:'chunckfive', 'britannic_boldregular', serif!important;
     font-size:11px!important;
     font-weight:normal!important;
     height:16px;
@@ -3153,7 +3153,7 @@ td.price {
     border-radius:.5em .5em .5em .5em!important;
     box-shadow:.25em .25em #c5b39d;
     color:#fff;
-    font-family:'chunckfive', serif!important;
+    font-family:'chunckfive', 'britannic_boldregular', serif!important;
     font-size:14px!important;
     font-weight:normal!important;
     height:16px!important;
@@ -3320,7 +3320,7 @@ td.price {
 }
 .search-locations-criteria-and-result-page-b .choose-location-btn .change-date-time-btn, .search-locations-results-page-b .choose-location-btn .change-date-time-btn, .start-group-order-link-container {
     background-image:url("//images.testwebhotel.microsdc.us/eatnparkv7/get/w/122/h/33/button-red-bg.image?notfound=notavailable");
-    font-family:'chunckfive', serif;
+    font-family:'chunckfive', 'britannic_boldregular', serif;
     font-size:10px;
     font-weight:normal;
     padding:7px 11px;
@@ -3513,7 +3513,7 @@ table td .select-date-time-container {
     box-shadow:2px 3px 2px #c5b39d;
     color:#fff!important;
     float:right;
-    font-family:'chunckfive';
+    font-family:'chunckfive', 'britannic_boldregular';
     font-size:12px;
     font-weight:normal!important;
     height:23px;
@@ -3592,7 +3592,7 @@ div.sign-up-container {
     width:95.5%;
 }
 div.sign-up-title {
-    font-family:"chunckfive", serif;
+    font-family:"chunckfive", 'britannic_boldregular', serif;
     font-size:1.2em;
 }
 .favorite-location-title {
@@ -3652,7 +3652,7 @@ div.past-orders-list ul.past-orders-list-header li:last-child, div.favorites-lis
     border-radius:.5em .5em .5em .5em!important;
     color:#FFF!important;
     cursor:pointer!important;
-    font-family:'chunckfive', serif!important;
+    font-family:'chunckfive', 'britannic_boldregular', serif!important;
     font-size:14px!important;
     font-weight:normal!important;
     padding:7px 17px!important;
@@ -3968,7 +3968,7 @@ table.ui-res-checkout-input-table td {
 }
 .ui-myres-menu-store-offline-popup-content .title {
     color:#000!important;
-    font-family:'chunckfive';
+    font-family:'chunckfive', 'britannic_boldregular';
     font-size:27px;
     font-weight:normal!important;
     padding:20px 25px 10px 25px!important;
