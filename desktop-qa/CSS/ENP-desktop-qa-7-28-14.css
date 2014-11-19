@@ -13,6 +13,13 @@
     font-weight:normal;
     src:url("//images.testwebhotel.microsdc.us/eatnparkv7/font/coffeeservice-webfont.woff") format("woff");
 }
+@font-face {
+    font-family:'britannic_boldregular';
+    src:url('//images.testwebhotel.microsdc.us/eatnparkv7/font/britanic-webfont.eot');
+    src:url('//images.testwebhotel.microsdc.us/eatnparkv7/font/britanic-webfont.eot?#iefix') format('embedded-opentype'), url('//images.testwebhotel.microsdc.us/eatnparkv7/font/britanic-webfont.woff') format('woff'), url('//images.testwebhotel.microsdc.us/eatnparkv7/font/britanic-webfont.ttf') format('truetype'), url('//images.testwebhotel.microsdc.us/eatnparkv7/font/britanic-webfont.svg') format('svg');
+    font-weight:bold;
+    font-style:normal;
+}
 .ui-res-group-order-order-limit-per-person-input-container:before {
     content:'Please enter a dollar value, without decimals';
     display:block;
@@ -119,7 +126,6 @@ input.ui-res-group-order-group-name-input {
     font-weight:bold;
     color:#F00;
 }
-
 .ui-dialog #menu-item-hidden-10732 .ui-res-lbl-img-icon-price-div:before {
     content:'Starting at $';
 }
@@ -2367,7 +2373,7 @@ td.price {
     color:#fff;
     float:none;
     cursor:default;
-    font-family:'chunckfive';
+    font-family:'chunckfive', 'britannic_boldregular';
     list-style:none outside none;
     padding:5px 0;
     text-shadow:1px 1px 0 rgba(0, 0, 0, 0.5);
