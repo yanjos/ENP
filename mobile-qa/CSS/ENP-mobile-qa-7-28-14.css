@@ -16,6 +16,13 @@
     font-weight:normal;
     src:url("//images.testwebhotel.microsdc.us/enp.mobile/font/coffeeservice-webfont.eot#iefix") format("embedded-opentype"), url("//images.testwebhotel.microsdc.us/enp.mobile/font/coffeeservice-webfont.woff") format("woff"), url("//images.testwebhotel.microsdc.us/enp.mobile/font/coffeeservice-webfont.ttf") format("truetype"), url("//images.testwebhotel.microsdc.us/enp.mobile/font/coffeeservice-webfont.svg") format("svg");
 }
+@font-face {
+    font-family:'britannic_boldregular';
+    src: url('//images.testwebhotel.microsdc.us/eatnparkv7/font/britanic-webfont.eot');
+    src: url('//images.testwebhotel.microsdc.us/eatnparkv7/font/britanic-webfont.eot?#iefix') format('embedded-opentype'), url('//images.testwebhotel.microsdc.us/eatnparkv7/font/britanic-webfont.woff') format('woff'), url('//images.testwebhotel.microsdc.us/eatnparkv7/font/britanic-webfont.ttf') format('truetype'), url('//images.testwebhotel.microsdc.us/eatnparkv7/font/britanic-webfont.svg') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
 @media only screen and (max-width:480px) {
     @font-face {
         font-family:"coffeeservice";
@@ -40,7 +47,7 @@
     font-size:27px;
 }
 .subheader {
-    font-family:'chunkfive';
+    font-family:'chunkfive', 'britannic_boldregular';
     font-size:18px;
 }
 .returning-customer-txt, .new-customer-txt {
@@ -100,7 +107,7 @@
     font-family:"coffeeservice"!important;
 }
 .coming-soon-txt {
-    font-family:'chunkfive', serif;
+    font-family:'chunkfive', 'britannic_boldregular', serif;
     font-size:25px;
     text-transform:uppercase;
 }
@@ -156,13 +163,13 @@
 }
 .ui-res-search-locations-by-current-location-container::after {
     content:'OR';
-    font-family:'chunkfive'!important;
+    font-family:'chunkfive', 'britannic_boldregular' !important;
     display:block;
     padding-top:10px;
 }
 .ui-res-search-locations-by-current-location-container::before {
     content:'Select a Location';
-    font-family:'chunkfive'!important;
+    font-family:'chunkfive', 'britannic_boldregular' !important;
     display:block;
     padding-bottom:10px;
 }
@@ -358,7 +365,7 @@ input[type="text"], input[type="email"], input[type="password"], input[type="num
     font-family:"coffeeservice"!important;
 }
 .ui-res-accordion-menu-item-li span {
-    font-family:chunkfive;
+    font-family:'chunkfive', 'britannic_boldregular';
     font-size:23px;
 }
 .ui-res-menu-grid-item-specialinstructions-container {
@@ -653,7 +660,7 @@ header.masthead, .jqm-header-container>ul {
     color:#000;
     font-size:20px;
     font-weight:bold;
-    font-family:'chunkfive';
+    font-family:'chunkfive', 'britannic_boldregular';
 }
 .order-confirmation .qty {
     visibility:hidden!important;
@@ -817,7 +824,7 @@ button {
     margin-bottom:0!important;
 }
 .ui-res-order-overall-grand-total-container, .ui-res-order-overall-grand-total-container .amount {
-    font-family:'chunkfive'!important;
+    font-family:'chunkfive', 'britannic_boldregular'!important;
     font-size:20px!important;
     line-height:24px!important;
 }
@@ -1069,7 +1076,7 @@ div.sign-up-title {
     box-shadow:2px 3px 2px #c5b39d;
     color:#fff!important;
     float:right;
-    font-family:'chunkfive';
+    font-family:'chunkfive', 'britannic_boldregular';
     font-size:14px;
     font-weight:normal!important;
     height:32px;
@@ -1081,8 +1088,8 @@ div.sign-up-title {
     text-shadow:1px 1px 0 rgba(0, 0, 0, 0.5)!important;
     width:202px;
 }
-.login .ui-res-login-create-account-btn{
-	float:left;
+.login .ui-res-login-create-account-btn {
+    float:left;
 }
 .login a.ui-res-login-order-as-guest {
     top:22px;
@@ -1161,7 +1168,7 @@ h3.ui-accordion-header {
     background-position:center center;
     border-radius:5px;
     -webkit-border-radius:5px;
-    font-family:'chunkfive', sans-serif!important;
+    font-family:'chunkfive', 'britannic_boldregular', sans-serif!important;
     font-size:14px!important;
     font-weight:200;
     height:10px!important;
@@ -1256,12 +1263,12 @@ table {
     color:#000!important;
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family:'chunkfive'!important;
+    font-family:'chunkfive', 'britannic_boldregular' !important;
     text-transform:none!important;
     color:#000!important;
 }
 .diff-font {
-    font-family:'chunkfive'!important;
+    font-family:'chunkfive', 'britannic_boldregular'!important;
     font-weight:normal!important;
 }
 .ui-res-subsection-header h2 {
@@ -1319,7 +1326,7 @@ h1, h2, h3, h4, h5, h6 {
     border-width:0 0 3px 0!important;
     border-color:#000!important;
     background:transparent!important;
-    font-family:'chunkfive', serif!important;
+    font-family:'chunkfive', 'britannic_boldregular', serif!important;
 }
 .item-nutrition-fact>div {
     display:inline-block;
@@ -1573,7 +1580,7 @@ label.config-modifier-title-label .config-modifier-title-label-label {
     border-radius:5px;
     color:#fff;
     display:inline-block!important;
-    font-family:'chunkfive', serif;
+    font-family:'chunkfive', 'britannic_boldregular', serif;
     font-size:33px;
     height:auto;
     left:7%;
@@ -1594,7 +1601,7 @@ label.config-modifier-title-label .config-modifier-title-label-label {
 #home_banner {
     background-image:url("//images.testwebhotel.microsdc.us/enp.mobile/get/w/1014/h/1/home_banner.image?notfound=notavai");
     color:#fff!important;
-    font-family:'chunkfive', serif;
+    font-family:'chunkfive', 'britannic_boldregular', serif;
     margin-bottom:5px;
     margin-left:5px;
     padding-bottom:10px;
@@ -1611,7 +1618,7 @@ h3, h4 {
 h5, .ui-dialog .ui-res-lbl-img-icon-label-div {
     color:#000;
     display:inline-block;
-    font-family:'chunkfive', serif;
+    font-family:'chunkfive', 'britannic_boldregular', serif;
     font-size:24px!important;
     line-height:24px;
     margin:0 auto;
@@ -1625,7 +1632,7 @@ h3 {
 h1, .selected-menu-category-item-title, .customCategoryTitleModal, .location-txt>div, .account-header>div, .ui-res-modal-current-order-result, .message-container .title, .popup-body .title {
     color:#000!important;
     display:inline-block;
-    font-family:'chunkfive';
+    font-family:'chunkfive', 'britannic_boldregular';
     font-size:30px;
     font-weight:normal!important;
     line-height:31px;
@@ -1735,7 +1742,7 @@ select {
 }
 .nav-order-step-bar {
     overflow:hidden;
-    font-family:'chunkfive', sans-serif!important;
+    font-family:'chunkfive', 'britannic_boldregular', sans-serif!important;
     font-size:.9em;
     font-weight:200;
     height:36px;
@@ -2025,7 +2032,7 @@ td.qty select {
     box-shadow:2px 3px 2px #c5b39d!important;
     color:#fff;
     cursor:pointer!important;
-    font-family:'chunkfive', sans-serif!important;
+    font-family:'chunkfive', 'britannic_boldregular', sans-serif!important;
     font-size:14px!important;
     height:32px!important;
     line-height:33px!important;
@@ -2331,13 +2338,13 @@ div.ui-res-my-account-navigation-container ul li.active {
     overflow:hidden!important;
 }
 .pre-order-btn-continue-span, background-color:transparent!important;
-background-image:url("//images.testwebhotel.microsdc.us/boltburgerdesktop/get/w/1/h/36/btn_redsml.image");
-border:2px solid #555!important;
-box-shadow:none!important;
-font-family:'chunkfive', sans-serif!important;
-font-size:.9em!important;
-font-style:normal!important;
-text-shadow:2px 2px 2px #555;
+ background-image:url("//images.testwebhotel.microsdc.us/boltburgerdesktop/get/w/1/h/36/btn_redsml.image");
+ border:2px solid #555!important;
+ box-shadow:none!important;
+ font-family:'chunkfive', 'britannic_boldregular', sans-serif !important;
+ font-size:.9em!important;
+ font-style:normal!important;
+ text-shadow:2px 2px 2px #555;
 
 }
 .pre-order-information-title, .change-location-information-title, .ui-res-update-to-zero-simple-confirmation-title, .ui-res-restricted-category-confirmation-title, .ui-res-out-of-range-simple-confirmation-title, .ui-res-out-of-range-confirmation-title, .ui-res-update-to-zero-confirmation-title {
