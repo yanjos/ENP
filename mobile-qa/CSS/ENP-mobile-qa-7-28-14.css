@@ -30,6 +30,9 @@
         src:url("//images.testwebhotel.microsdc.us/enp.mobile/font/coffeeservice-webfont.svg") format("svg");
     }
 }
+.enp-popup-modals .ui-res-dialog-mobile {
+    position:fixed!important;
+}
 .ui-res-dialog-mobile .button-1 {
     display:inline-block!important;
 }
@@ -2334,13 +2337,13 @@ div.ui-res-my-account-navigation-container ul li.active {
     overflow:hidden!important;
 }
 .pre-order-btn-continue-span, background-color:transparent!important;
- background-image:url("//images.testwebhotel.microsdc.us/boltburgerdesktop/get/w/1/h/36/btn_redsml.image");
- border:2px solid #555!important;
- box-shadow:none!important;
- font-family:"chunkfive", sans-serif!important;
- font-size:.9em!important;
- font-style:normal!important;
- text-shadow:2px 2px 2px #555;
+background-image:url("//images.testwebhotel.microsdc.us/boltburgerdesktop/get/w/1/h/36/btn_redsml.image");
+border:2px solid #555!important;
+box-shadow:none!important;
+font-family:"chunkfive", sans-serif!important;
+font-size:.9em!important;
+font-style:normal!important;
+text-shadow:2px 2px 2px #555;
 
 }
 .pre-order-information-title, .change-location-information-title, .ui-res-update-to-zero-simple-confirmation-title, .ui-res-restricted-category-confirmation-title, .ui-res-out-of-range-simple-confirmation-title, .ui-res-out-of-range-confirmation-title, .ui-res-update-to-zero-confirmation-title {
@@ -2443,6 +2446,11 @@ div.ui-res-my-account-navigation-container ul li.active {
 .button.ui-mres-menu-store-offline-popup-ok-btn {
     display:inline-block;
     width:30%;
+}
+
+.promo-wrap img {
+margin: 10px auto;
+display: block;
 }
 @media screen and (-webkit-min-device-pixel-ratio:0) {
     .config-upsell-controls-modalscreen-container>.config-prompt>.config-prompt-options>.config-modifier>.config-modifier-title>.config-modifier-title-label>.regular-checkbox:checked+label:after {
