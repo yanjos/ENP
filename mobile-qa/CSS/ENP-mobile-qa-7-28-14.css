@@ -2219,12 +2219,8 @@ div.ui-res-my-account-navigation-container ul li.active {
     margin:0 auto;
     vertical-align:top;
 }
-.ui-res-select-home-location-dialog .ui-res-locations-search-result-container {
-    display:block;
-    margin:0 auto;
-    vertical-align:top;
-    overflow-y:scroll;
-    max-height:250px;
+.enp-popup-modals .ui-res-dialog-mobile.ui-res-select-home-location-modal-screen {
+    position:absolute !important;
 }
 .ui-res-lbl-img-icon-label {
     left:-44px;
